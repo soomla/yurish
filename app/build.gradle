@@ -1,9 +1,11 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'io.github.soomla'
 
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.macyurish.yurish"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1

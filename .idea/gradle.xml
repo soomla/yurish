@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/adColony" />
             <option value="$PROJECT_DIR$/admob" />
+            <option value="$PROJECT_DIR$/keeva" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,1 +1,1 @@
-include ':adColony', ':admob'
+include ':adColony', ':admob', ':keeva'

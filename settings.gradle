@@ -1,1 +1,1 @@
-include ':adColony', ':admob', ':keeva', ':soomlatraceback'
+include ':adColony', ':admob', ':soomlatraceback'

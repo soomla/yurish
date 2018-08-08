@@ -1,14 +1,5 @@
 apply plugin: 'com.android.application'
 
-apply plugin: 'java'
-apply plugin: 'maven'
-
-group = 'io.github.soomla'
-
-repositories {
-    mavenCentral()
-}
-
 android {
     compileSdkVersion 27
     defaultConfig {
@@ -35,17 +26,3 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
-// To specify a license in the pom:
-install {
-    repositories.mavenInstaller {
-        pom.project {
-            licenses {
-                license {
-                    name 'The Apache Software License, Version 2.0'
-                    url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-                    distribution 'repo'
-                }
-            }
-        }
-    }
-}

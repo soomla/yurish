@@ -1,0 +1,4 @@
+Features
+  * Support Smaato 21.3.1 (NextGenSdk)
+  * Support InMobi version 9.0.7
+
